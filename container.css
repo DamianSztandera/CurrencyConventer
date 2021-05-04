@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Kalam", sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+.page {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-image: url("https://kryptowaluty.expert/wp-content/uploads/2019/10/hardware-wallet.jpg");
+}
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.title {
+    color: bisque;
+}
+.form__labelText {
+    font-size: 20px;
+    color: bisque;
+    width: 200px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.form__pln {
+    border: 1px solid;
+    padding: 12px;
+    width: 300px;
+    border-radius: 15px;
+}
+.form__field {
+    border: 1px solid;
+    padding: 12px;
+    width: 300px;
+    border-radius: 15px;
+}
+.form__fileset {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.form__button {
+    padding: 15px;
+    width: 380px;
+    border-radius: 20px;
+    margin: 20px;
+    border: none;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.form__button:hover {
+    background-color: cadetblue;
+}
+.form__button:active {
+    background-color: rgb(121, 155, 156);
+}
+.form__reset {
+    padding: 15px;
+    width: 380px;
+    border-radius: 20px;
+    margin: 20px;
+    border: none;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.form__reset:hover {
+    background-color: cadetblue;
+}
+.form__reset:active {
+    background-color: rgb(121, 155, 156);
+}
+.information {
+    color: bisque;
+    font-size: 20px;
+}
