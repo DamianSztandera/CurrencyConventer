@@ -1,16 +1,23 @@
-let pln = document.querySelector(".js-pln");
-let eth = document.querySelector(".js-eth");
-let ethc = document.querySelector(".js-ethc");
-let btc = document.querySelector(".js-btc");
-let form = document.querySelector(".form");
+{
 
+const pln = document.querySelector(".js-pln");
+const eth = document.querySelector(".js-eth");
+const ethc = document.querySelector(".js-ethc");
+const btc = document.querySelector(".js-btc");
+const form = document.querySelector(".form");
 
-form.addEventListener("submit", (event) => {
+const onConvert =(event) => {
     event.preventDefault();
-    let ethResult = pln.value / 8643.69;
-    let ethcResult = pln.value / 130.23;
-    let btcResult = pln.value / 212319.75;
+    const ethResult = pln.value / 8643.69;
+    const ethcResult = pln.value / 130.23;
+    const btcResult = pln.value / 212319.75;
     eth.value = ethResult.toFixed(10);
     ethc.value = ethcResult.toFixed(10);
     btc.value = btcResult.toFixed(10);
-});
+}
+
+form.addEventListener("submit", onConvert);
+
+onConvert();
+welcome();
+}
