@@ -10,8 +10,7 @@ html {
     box-sizing: inherit;
 }
 .page {
-    margin: 0 auto;
-    max-width: 1000px;
+    
     background-image: url("https://kryptowaluty.expert/wp-content/uploads/2019/10/hardware-wallet.jpg");
 }
 .container {
